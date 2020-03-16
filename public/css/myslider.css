@@ -5,6 +5,9 @@
 .mySlides { display: none;}
 
 /* Next & Previous Buttons */
+.slideshow-container a{text-decoration: none;}
+.slideshow-container a:hover{text-decoration: none;}
+
 .slideshow-container .prev, .slideshow-container .next {
   cursor: pointer;
   position: absolute;

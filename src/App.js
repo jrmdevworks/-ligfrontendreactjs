@@ -10,6 +10,13 @@ import Samplepage from "./components/pages/Samplepage";
 
 class App extends Component{
 
+  componentDidMount() {
+    /* const script = document.createElement("script");
+    script.src = "js/mytheme.js";
+    script.async = true;      
+    document.body.appendChild(script); */
+  } 
+ 
   render(){
     return(
       <Router>      
@@ -28,6 +35,7 @@ class App extends Component{
   }
 
   scrollToTop(){
+    console.log('scrollToTop Here!');  
     document.body.scrollTop = 0;
     document.documentElement.scrollTop = 0;
   }
