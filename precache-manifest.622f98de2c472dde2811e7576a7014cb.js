@@ -1,6 +1,6 @@
 self.__precacheManifest = (self.__precacheManifest || []).concat([
   {
-    "revision": "ad73063ebd78b246ab32919189bcbd2c",
+    "revision": "55c74cdb0aa78dafb420c2a449c8289e",
     "url": "/ligfrontendreactjs/index.html"
   },
   {
@@ -12,8 +12,8 @@ self.__precacheManifest = (self.__precacheManifest || []).concat([
     "url": "/ligfrontendreactjs/static/js/2.cd0928c6.chunk.js.LICENSE.txt"
   },
   {
-    "revision": "e15a1b62b5c7f823e0d2",
-    "url": "/ligfrontendreactjs/static/js/main.4a612fd3.chunk.js"
+    "revision": "72adc06544a271091c5e",
+    "url": "/ligfrontendreactjs/static/js/main.36043989.chunk.js"
   },
   {
     "revision": "b90c07cd56abbc6368ec",

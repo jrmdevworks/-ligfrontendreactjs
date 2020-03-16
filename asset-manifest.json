@@ -1,19 +1,19 @@
 {
   "files": {
-    "main.js": "/ligfrontendreactjs/static/js/main.4a612fd3.chunk.js",
-    "main.js.map": "/ligfrontendreactjs/static/js/main.4a612fd3.chunk.js.map",
+    "main.js": "/ligfrontendreactjs/static/js/main.36043989.chunk.js",
+    "main.js.map": "/ligfrontendreactjs/static/js/main.36043989.chunk.js.map",
     "runtime-main.js": "/ligfrontendreactjs/static/js/runtime-main.d1074f69.js",
     "runtime-main.js.map": "/ligfrontendreactjs/static/js/runtime-main.d1074f69.js.map",
     "static/js/2.cd0928c6.chunk.js": "/ligfrontendreactjs/static/js/2.cd0928c6.chunk.js",
     "static/js/2.cd0928c6.chunk.js.map": "/ligfrontendreactjs/static/js/2.cd0928c6.chunk.js.map",
     "index.html": "/ligfrontendreactjs/index.html",
-    "precache-manifest.0bfa67f0c09e88c16e247c49f4f268d4.js": "/ligfrontendreactjs/precache-manifest.0bfa67f0c09e88c16e247c49f4f268d4.js",
+    "precache-manifest.622f98de2c472dde2811e7576a7014cb.js": "/ligfrontendreactjs/precache-manifest.622f98de2c472dde2811e7576a7014cb.js",
     "service-worker.js": "/ligfrontendreactjs/service-worker.js",
     "static/js/2.cd0928c6.chunk.js.LICENSE.txt": "/ligfrontendreactjs/static/js/2.cd0928c6.chunk.js.LICENSE.txt"
   },
   "entrypoints": [
     "static/js/runtime-main.d1074f69.js",
     "static/js/2.cd0928c6.chunk.js",
-    "static/js/main.4a612fd3.chunk.js"
+    "static/js/main.36043989.chunk.js"
   ]
 }
