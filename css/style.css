@@ -1,0 +1,99 @@
+/***Custom Fonts***/
+@font-face {font-family: YuGothicLight; src: url('fonts/yugothil/yugothil.ttf'); }
+@font-face {font-family: YuGothicBold; src: url('fonts/yugothib/yugothib.ttf'); }	
+
+body{ 
+	background:#FFFFFF; 
+	width:auto; 
+	height:auto; 
+	margin:0; 
+	padding:0; 
+	font-family: "游ゴシック体", "Yu Gothic", YuGothic, "ヒラギノ角ゴシック Pro", "Hiragino Kaku Gothic Pro", 'メイリオ', Meiryo, Osaka, "ＭＳ Ｐゴシック", "MS PGothic", sans-serif;
+	font-size:14px; 
+	color:#333333; 
+	line-height:22px;
+}
+
+
+
+/***Top Logo***/
+.logo-container{width:100%; height:127px; background:#FFFFFF; border-top:3px solid #E7BA2F; display:block; margin:0; padding:0; overflow:hidden;}
+.logo{ text-align:center; padding-top:30px;}
+
+/***Header***/
+.header-container{width:100%; height:auto; display:block; margin:0; padding:0; overflow:hidden;}
+
+/***Body***/
+.body-container{width:1080px; height:auto; margin:42px auto 0 auto; text-align:left;}
+	.body-container a {color:#0066CC; text-decoration:none;}
+	.body-container a:hover {color:#FF0000; text-decoration:underline;}
+	
+.content-wrapper{ width:740px; height:auto; float:left; text-align:left; padding-bottom:40px;}
+	.content-wrapper .container{width:690px; font-size: 16px;}
+	.content-wrapper ul.list{padding:0px; margin:0px 0px 0px 0px; list-style-type:none; line-height:normal; display:block; clear:both;}
+	.content-wrapper ul.list li{padding:0px; margin:0px; display:block; line-height:normal; clear:both;}
+	.content-wrapper ul.list li a{color:#000000; text-decoration:none; line-height: 14px;}
+	.content-wrapper ul.list li a:hover{color:#E6BB30; text-decoration:none;}
+	.content-wrapper ul.list li a:hover .description{color:#000000;}
+	.content-wrapper ul.list li div.thumb{ float:left; width:206px; height:auto; text-align:left;}
+	.content-wrapper ul.list li div.text{ float:right; width:470px; height:auto; text-align:left; padding-left:14px;}
+	.content-wrapper ul.list li div.text span{ display:block; color:#aaa; font-size:12px; padding-bottom:10px; font-weight: 500;}		
+	.content-wrapper ul.list li div.text p{ padding:0px 0px 15px 0px; margin:0px;}
+	.content-wrapper ul.list li .title{ font-size: 16px; font-family: YuGothicBold; line-height: 16px;}
+	.content-wrapper ul.list li .description{font-size: 13px; font-family: YuGothicLight; line-height: 14px;}
+	.content-wrapper ul.list li .description:hover{color:#333333;}
+	.content-wrapper ul.list li .list-spacer{ width:auto; height:38px; line-height:normal; clear:both;}
+
+.sidebar{ width:340px; height:auto; float:right; text-align:left; background-color:#EFEFEF; padding-bottom:40px;}		
+	.sidebar a.banner-white{color:#000000; text-decoration:none; display:block; background-color:#FFFFFF; width:300px; height:300px; margin:0 auto 0 auto;}
+	.sidebar a.banner-white:hover{color:#000000; text-decoration:none;}
+		.sidebar a.banner-white p{color:#808080; line-height:300px; text-align:center; font-weight:bold;}	
+	
+	.sidebar a.banner-gray{color:#FFFFFF; text-decoration:none; display:block; background-color:#666666; width:300px; height:93px; margin:0 auto 0 auto;}	
+	.sidebar a.banner-gray:hover{color:#FFFFFF; text-decoration:none;}
+	.sidebar a.banner-gray p{color:#FFFFFF; text-decoration:none; line-height:93px; text-align:center; font-weight:bold;}
+	
+	.sidebar .container{width:300px; height:auto; margin:20px auto 0 auto; text-align:left;}
+	.sidebar .container h1{margin:0px; padding:0px; text-align:center; color:#000000; border-bottom:1px solid #000000; height:32px; line-height:25px; font-size:20px; letter-spacing:2px;}
+
+	.sidebar ul.list{padding:0px; margin:20px 0px 0px 0px; list-style-type:none; line-height:normal; display:block; font-family: YuGothicBold;}
+	.sidebar ul.list li{padding:0px; margin:0px; display:block; line-height:normal; clear:both;}
+	.sidebar ul.list li a{color:#333333; text-decoration:none;}
+	.sidebar ul.list li a:hover{color:#E6BB30; text-decoration:none;}
+	.sidebar ul.list li div.thumb{ float:left; width:112px; height:auto; text-align:left;}
+	.sidebar ul.list li div.text{ float:right; width:183px; height:auto; text-align:left; padding-left:5px; font-size: 13px; line-height: 14px;}
+	.sidebar ul.list li div.text span{ display:block; color:#AFAFAF; font-size:12px; padding-top:5px;}			
+
+/***Footer***/
+.footer-container{width:100%; height:45px; background:#000000; display:block; margin:0; padding:0; overflow:hidden;}
+.footer{width:1080px; height:auto; margin:0 auto 0 auto; color:#FFFFFF; text-align:left; line-height:48px;}
+	.footer .links a{color:#FFFFFF; text-decoration:none;}
+	.footer .links a:hover{color:#E7BA2F; text-decoration:none;}	
+	.footer .copyright{color:#FFFFFF; text-align:right; }
+
+/***Common Styles***/	
+.clearfix{clear:both;}
+.float-left{float:left;}
+.float-right{float:right;}
+.padd-t2{padding-top:20px;}	
+.padd-b1{padding-bottom:10px;}	
+.padd-b2{padding-bottom:20px;}	
+.padd-b3{padding-bottom:30px}	
+.padd-r1{padding-right:15px;}
+.text-bold{font-weight:bold;}
+.text-right{text-align:right;}
+.pos-rel{position: relative;}
+.pos-abs-right{ position: absolute; right:20px; top:20px;}
+h1.title{font-size:34px; line-height:normal; padding:0px 0px 10px 0px; margin-top:0px; border-bottom:1px solid #000000; }
+
+a.btn-black{color:#FFFFFF; text-decoration:none; display:block; background-color:#333333; width:auto; height:auto; padding:12px 0px 12px 0px; text-align:center; line-height:normal; font-size:16px; font-weight:500; margin:0 20% 0 20%;}
+a.btn-black:hover{color:#FFFFFF; background-color:#E6BB30; text-decoration:none;}
+
+i.arrow{border: solid white; border-width: 0 3px 3px 0; display:inline-block; padding: 4px;}
+i.arrow-black{border: solid black; border-width: 0 3px 3px 0; display:inline-block; padding: 7px;}
+
+i.arrow-right{transform: rotate(-45deg);  -webkit-transform: rotate(-45deg);}
+i.arrow-up{transform: rotate(-135deg); -webkit-transform: rotate(-135deg);}
+
+#go-top-btn{border:none; outline:none; background-color:#FFFFFF; cursor:pointer; padding:15px 15px 10px 15px; border-radius:4px;}
+#go-top-btn:hover {background-color: #eee;}
