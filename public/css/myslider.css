@@ -1,0 +1,63 @@
+* {box-sizing:border-box}
+
+.slideshow-container {position: relative; margin: auto; max-width: 1400px;}
+
+.mySlides { display: none;}
+
+/* Next & Previous Buttons */
+.slideshow-container .prev, .slideshow-container .next {
+  cursor: pointer;
+  position: absolute;
+  top: 40%; 
+  width: auto; 
+  padding: 16px;
+  color: white; 
+  font-size: 60px;
+  transition: 0.6s ease;
+  border-radius: 0 3px 3px 0;
+  user-select: none;  
+}
+
+.slideshow-container .next {right: 10%; border-radius: 3px 0 0 3px;}
+
+.slideshow-container .prev {left: 10%; border-radius: 3px 0 0 3px;}
+
+.slideshow-container .prev:hover, .slideshow-container .next:hover {background-color: rgba(0,0,0,0.5); }
+
+.slideshow-container .caption {color:#FFFFFF; position:absolute; width:100%;  text-align:center; top:28%; letter-spacing: 1px;}
+.slideshow-container .caption h1{ margin:0; padding:0; line-height:normal; font-size:60px;}
+.slideshow-container .caption p{padding-top:30px; margin:0px; text-align:center; font-size: 16px; font-family: YuGothicBold;}
+
+.slideshow-container .dots-container{position:absolute; width:100%;  text-align:center; top:90%;}
+
+.slideshow-container .dots-container .dot{
+  cursor:pointer;
+  height:15px;
+  width:15px;
+  margin:0 2px;
+  background-color:#FFFFFF;
+  border-radius:50%;
+  display:inline-block;
+  transition:background-color 0.6s ease;
+}
+
+.dots-container .dot:hover{background-color: #EABB31;}
+.dots-container span.active{background-color: #EABB31 !important;}
+
+/* Fading animation */
+.slideshow-container .fade {
+  -webkit-animation-name: fade;
+  -webkit-animation-duration: 1.5s;
+  animation-name: fade;
+  animation-duration: 1.5s;
+}
+
+@-webkit-keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
+
+@keyframes fade {
+  from {opacity: .4}
+  to {opacity: 1}
+}
