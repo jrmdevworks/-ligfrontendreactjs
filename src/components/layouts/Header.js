@@ -16,7 +16,7 @@ class Header extends Component{
             <React.Fragment>  
                 <div className="logo-container">
                     <div className="logo">
-                        <Link to="/ligfrontendreactjs"><img src="images/logo.png" alt="Logo" /></Link>
+                        <Link to="/ligfrontendreactjs/"><img src="images/logo.png" alt="Logo" /></Link>
                     </div>
                 </div>        
                 <div className="header-container">

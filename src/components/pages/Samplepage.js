@@ -6,7 +6,7 @@ function Samplepage() {
            <div className="content-wrapper">
             <div className="container">
                 <h1 className="title">Sample Page</h1>						
-                <img src="images/thumb3.jpg" align="left" className="padd-r1" alt="" /> 
+                <img src="/ligfrontendreactjs/images/thumb3.jpg" align="left" className="padd-r1" alt="" /> 
                 
                 <p>Lorem ipsum dolor sit amet, consectetuer adipiscing elit. Phasellus hendrerit. Pellentesque aliquet nibh nec urna. In nisi neque, aliquet vel, dapibus id, mattis vel, nisi. Sed pretium, ligula sollicitudin laoreet viverra, tortor libero sodales leo, eget blandit nunc tortor eu nibh. Nullam mollis. Ut justo. Suspendisse potenti.</p>
 
