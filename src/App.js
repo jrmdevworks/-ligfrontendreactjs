@@ -22,7 +22,7 @@ class App extends Component{
       <Router>      
          <Header />
          <div className="body-container clearfix">         
-            <Route exact path="/" component={Homepage}/>  
+            <Route exact path="/ligfrontendreactjs" component={Homepage}/>  
             <Route path="/sample-page" component={Samplepage}/> 
             <Sidebar />
             <div className="padd-t2 padd-b1 text-right clearfix">	
